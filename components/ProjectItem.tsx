@@ -12,7 +12,7 @@ const ProjectItem: React.FunctionComponent<Projects> = ({
   return (
     <div className="relative flex items-center justify-center h-[50vh] w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-blue-500 to-blue-400">
       <Image
-        className="rounded-xl group-hover:opacity-10"
+        className="rounded-xl group-hover:opacity-10 bg-cover"
         src={backgroundImg}
         alt="/"
         layout="fill"

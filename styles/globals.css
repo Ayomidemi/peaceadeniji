@@ -43,7 +43,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-blue-500 to-blue-400 text-white
   }
 }
 
@@ -51,4 +51,41 @@ html {
   .navlinkk {
     @apply relative cursor-pointer before:absolute before:inset-x-0 before:-bottom-1.5 before:h-0.5 before:origin-left before:scale-x-0 before:transform before:rounded-bl before:bg-blue-600 before:transition-all before:duration-200 hover:before:scale-x-100;
   }
+  .animatee {
+    animation: slideIn 1.4s cubic-bezier(1, 0.19, 0.51, 1.19);
+  }
+  @keyframes slideIn {
+    from {
+      right: -100%;
+    }
+    to {
+      right: 1rem;
+    }
+  }
+  .icon {
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+  }
+  .success {
+    color: blue;
+  }
+  .error {
+    color: red;
+  }
+  .close {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: 0.2s linear;
+    margin-right: 10px;
+  }
+  .close:hover {
+    background-color: blue;
+  }
+  
 }

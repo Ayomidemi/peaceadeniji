@@ -5,3 +5,10 @@ interface Projects {
     projectUrl: string
     githubUrl: string
 }
+
+interface IToastNotificationProps {
+    type: string
+    text: string
+    icon: any
+    onclick: () => void;
+}

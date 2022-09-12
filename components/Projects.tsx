@@ -7,7 +7,7 @@ import BaseDirectories from "../base directories/BaseDirectories";
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-16 h-full">
+      <div className="max-w-[1240px] mx-auto px-6 sm:px-2  py-16 h-full">
         <p className="text-xl tracking-widest uppercase text-blue-600">
           Projects
         </p>

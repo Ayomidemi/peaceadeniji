@@ -51,12 +51,12 @@ const NavBar = () => {
               <Link href="/#projects">Projects</Link>
             </li>
             <li className="navlinkk ml-10 text-sm uppercase hover:border-b">
+              <Link href="/#contact">Contact</Link>
+            </li>
+            <li className="navlinkk ml-10 text-sm uppercase hover:border-b">
               <a href="/images/Peace's_Resume.pdf" download>
                 Resume
               </a>
-            </li>
-            <li className="navlinkk ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#contact">Contact</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -123,6 +123,11 @@ const NavBar = () => {
                   <a className="navlinkk">Projects</a>
                 </Link>
               </li>
+              <li onClick={() => setNav(false)} className=" py-4 text-sm">
+                <Link href="/#contact">
+                  <a className="navlinkk">Contact</a>
+                </Link>
+              </li>
 
               <li onClick={() => setNav(false)} className=" py-4 text-sm">
                 <a
@@ -132,12 +137,6 @@ const NavBar = () => {
                 >
                   Resume
                 </a>
-              </li>
-
-              <li onClick={() => setNav(false)} className=" py-4 text-sm">
-                <Link href="/#contact">
-                  <a className="navlinkk">Contact</a>
-                </Link>
               </li>
             </ul>
             <div className="pt-12">

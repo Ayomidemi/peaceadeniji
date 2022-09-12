@@ -29,15 +29,15 @@ const About = () => {
             love to explore &#128516;), but none gave me the drive the way
             coding does. */}
             I&#39;m great at a lot of things but I shine most at frontend
-            development and even more
-            enthused with making websites interactive. The big picture is to become an amazing Blockchain
-            Developer &#128516; so I spend most of my time building new projects
-            and learning new technologies.
+            development and even more enthused with making websites interactive.
+            The big picture is to become an amazing Blockchain Developer
+            &#128516; so I spend most of my time building new projects and
+            learning new technologies.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
-              But hey, don&#39;t take my word for it, here&#39;s some cool
-              projects I&#39;ve done &#128075;
+              But hey, don&#39;t just take my word for it, check out some of my
+              projects &#128075;
             </p>
           </Link>
         </div>
