@@ -39,7 +39,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-8 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src={`${BaseDirectories.SKILLS_DIR}/javascript.png`}
@@ -69,7 +69,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-8 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src={`${BaseDirectories.SKILLS_DIR}/typescript.png`}
@@ -84,7 +84,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-6 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src={`${BaseDirectories.SKILLS_DIR}/tailwind.png`}
@@ -144,7 +144,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="grid grid-cols-2 gap-6 justify-center items-center">
               <div className="m-auto">
                 <Image
                   src={`${BaseDirectories.SKILLS_DIR}/boostrap.png`}
