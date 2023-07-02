@@ -10,12 +10,12 @@ const Header = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto px-6 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            LET&#39;S BUILD SOMETHING TOGETHER
+            LET&#39;S BUILD SOMETHING COOL.
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m <span className="text-blue-600"> Peace Adeniji</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
+          <h1 className="py-2 text-gray-700">A Front-End Web & Mobile Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             My expertise is in the area of responsive design. With every line of
             code, I strive to make the web a beautiful place. Welcome to my
@@ -41,7 +41,7 @@ const Header = () => {
               </div>
             </a>
             <a
-                  href="mailto: adenijiayomide13@gmail.com.com"
+                  href="mailto:peaseadeniji@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -10,14 +10,14 @@ const ProjectItem: React.FunctionComponent<Projects> = ({
   githubUrl
 }) => {
   return (
-    <div className="relative flex items-center justify-center h-[50vh] w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-blue-500 to-blue-400 transition-all duration-1000">
+    <div className="relative flex items-center justify-center h-[50vh] w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-[#1f2525] transition-all duration-1000">
       <Image
         className="rounded-xl group-hover:opacity-10 bg-cover"
         src={backgroundImg}
         alt="/"
         layout="fill"
       />
-      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] transition-all">
+      <div className="hidden group-hover:block z-10 absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] transition-all">
         <h3 className="text-2xl text-white tracking-wider text-center">
           {title}
         </h3>

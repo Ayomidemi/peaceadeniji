@@ -17,20 +17,17 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-blue-600">&#123; Pease.js &#125;</p>
           <p className="py-2 text-gray-600">
-            Hi there, I&#39;m Peace but preferred to be called Pease(I promise
+            Hi there! I&#39;m Peace but prefer being referred to as Pease (I promise
             there&#39;s no big reason, it&#39;s just a matter of preference
             &#128521;), based in Lagos, Nigeria. With dedicated passion for UI
             effects, cutting edge technology, animations and creating intuitive,
-            dynamic user experiences, I build amazing stuffs using Next JS and
-            TypeScript.
+            dynamic user experiences, I build amazing stuffs using React JS,
+            React Native and Flutter.
           </p>
           <p className="py-2 text-gray-600">
-            {/* Before I started programming, I&#39;ve tried several career paths( I
-            love to explore &#128516;), but none gave me the drive the way
-            coding does. */}
             I&#39;m great at a lot of things but I shine most at frontend
-            development and even more enthused with making websites interactive.
-            The big picture is to become an amazing Blockchain Developer
+            development and even more enthused with making interactive applications.
+            The big picture is to become an amazing Blockchain Engineer
             &#128516; so I spend most of my time building new projects and
             learning new technologies.
           </p>

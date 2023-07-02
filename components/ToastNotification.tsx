@@ -8,9 +8,9 @@ const ToastNotification: React.FunctionComponent<IToastNotificationProps> = ({ t
     <div className='bg-white fixed right-4 top-24 z-10 max-w-[300px] sm:max-w-[380px] w-auto flex items-center rounded-lg shadow-md animatee'>
       <div className='flex justify-between items-center gap-6'>
         <span className='notification-content'>
-            <HiOutlineCheck
+            {/* <HiOutlineCheck
                 className={type === "success" ? "icon success" : "icon error"}
-            />
+            /> */}
             <p className='ml-6 mt-4 text-[1rem] font-medium '>
               {text}
             </p>

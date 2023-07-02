@@ -90,7 +90,7 @@ const Contact = () => {
           setSubmit(false);
           setMessage({
             type: "error",
-            msg: error.message,
+            msg: 'Form submission not acceptable at this time. Please try again later.',
           });
 
           setTimeout(() => {
@@ -167,7 +167,7 @@ const Contact = () => {
                   </a>
 
                   <a
-                    href="mailto: adenijiayomide13@gmail.com.com"
+                    href="mailto:peaseadeniji@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                   >

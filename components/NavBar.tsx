@@ -160,7 +160,7 @@ const NavBar = () => {
                   </div>
                 </a>
                 <a
-                  href="mailto: adenijiayomide13@gmail.com.com"
+                  href="mailto:peaseadeniji@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
