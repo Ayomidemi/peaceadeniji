@@ -17,7 +17,7 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-blue-600">&#123; Pease.js &#125;</p>
           <p className="py-2 text-gray-600">
-            Hi there! I&#39;m Peace but prefer being referred to as Pease (I promise
+            Hi there! I&#39;m Peace (legally) but prefer being referred to as Pease (I promise
             there&#39;s no big reason, it&#39;s just a matter of preference
             &#128521;), based in Lagos, Nigeria. With dedicated passion for UI
             effects, cutting edge technology, animations and creating intuitive,
