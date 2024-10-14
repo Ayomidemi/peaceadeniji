@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div >
       <Head>
-        <title>Peace Adeniji</title>
+        <title>Peace (Pease) Adeniji</title>
         <meta name="description" content="Frontend Developer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

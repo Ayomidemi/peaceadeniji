@@ -137,7 +137,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2 ">Peace Adeniji</h2>
+                <h2 className="py-2 ">Peace (Pease) Adeniji</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I am available for contract or full-time positions. Contact me

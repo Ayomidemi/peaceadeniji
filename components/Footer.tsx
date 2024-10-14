@@ -7,7 +7,7 @@ const Footer = () => {
         <Link href="/">
           <a className="text-blue-600 text-2xl italic">PEASE</a>
         </Link>
-        <p>Made with &#10084; by Peace Adeniji</p>
+        <p>Made with &#10084; by Peace (Pease) Adeniji</p>
     </div>
   )
 }
