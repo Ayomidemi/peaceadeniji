@@ -15,7 +15,7 @@ const Header = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m <span className="text-blue-600"> Peace (Pease) Adeniji</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Front-End Web & Mobile Developer</h1>
+          <h1 className="py-2 text-gray-700">A Full Stack Web & Mobile Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
             My expertise is in the area of responsive design. With every line of
             code, I strive to make the web a beautiful place. Welcome to my
