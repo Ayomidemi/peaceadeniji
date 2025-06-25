@@ -5,8 +5,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/:path*",
-        destination: "https://peaseadeniji.vercel.app/:path*",
+        source: "/(.*)",
+        destination: "https://peaseadeniji.com/$1",
         permanent: true,
       },
     ];
